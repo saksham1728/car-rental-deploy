@@ -19,15 +19,16 @@ const About = () => {
                 data-aos="fade-up"
                 className="text-3xl sm:text-4xl font-bold font-serif"
               >
-                About us
+              About us
               </h1>
               <p data-aos="fade-up" className="leading-8 tracking-wide">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Aspernatur, magnam! Tenetur odio quo et maxime?
+              At King Travels, we are driven by your journey. 
+              With a focus on safety, reliability, and top-notch customer
+              service, we make every trip memorable.
               </p>
               <p data-aos="fade-up">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
-                tempora.
+              From sleek sedans to spacious SUVs, our modern fleet and flexible plans ensure
+              you find the perfect ride—on your schedule, at your pace.
               </p>
               <button data-aos="fade-up" className="button-outline">
                 Get Started

@@ -1,7 +1,4 @@
 import React from "react";
-import whiteCar from "../../assets/white-car.png";  // placeholder, replace with your own images
-import car2 from "../../assets/car5.png";            // placeholder, replace with your own images
-import car3 from "../../assets/car6.png";
 import sedan from "../../assets/sedan.png"            
 import minisuv from "../../assets/minisuv.png"            
 import suv from "../../assets/suv.png"            
@@ -10,19 +7,19 @@ const carList = [
   {
     name: "Sedan",
     price: 900,
-    mileage: "10 km mileage",
+    mileage: "10 km/milage",
     image: sedan,
   },
   {
     name: "Mini SUV",
     price: 1200,
-    mileage: "10 km mileage",
+    mileage: "10 km/milage",
     image: minisuv,
   },
   {
     name: "SUV",
     price: 1400,
-    mileage: "8 km mileage",
+    mileage: "8 km/milage",
     image: suv,
   },
 ];
@@ -73,9 +70,9 @@ const CarList = () => {
 
         {/* Get Started Button */}
         <div className="grid place-items-center mt-8">
-          <button data-aos="fade-up" className="button-outline">
+          {/* <button data-aos="fade-up" className="button-outline">
             Get Started
-          </button>
+          </button> */}
         </div>
       </div>
     </div>
